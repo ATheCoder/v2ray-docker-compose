@@ -2,8 +2,8 @@ version: "3"
 
 services:
   v2ray:
-    image: ghcr.io/getimages/v2fly-core:v4.45.2
-    restart: always
+    image: ghcr.io/athecoder/v2fly-core:v5.1.0
+    restart: halways
     environment:
       - v2ray.vmess.aead.forced=false
     ports:
