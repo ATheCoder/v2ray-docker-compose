@@ -4,8 +4,6 @@ services:
   v2ray:
     image: ghcr.io/athecoder/v2fly-core:v5.1.0
     restart: always
-    environment:
-      - v2ray.vmess.aead.forced=false
     ports:
       - "1310:1310"
     volumes:
