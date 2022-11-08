@@ -3,6 +3,7 @@ version: "3"
 services:
   v2ray:
     image: ghcr.io/athecoder/v2fly-core:v5.1.0
+    command: run -c /etc/v2ray/config.json
     restart: always
     ports:
       - "1310:1310"

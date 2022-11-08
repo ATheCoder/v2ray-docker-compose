@@ -3,7 +3,8 @@ version: "3"
 services:
   v2ray:
     image: ghcr.io/athecoder/v2fly-core:v5.1.0
-    restart: halways
+    command: run -c /etc/v2ray/config.json
+    restart: always
     ports:
       - "127.0.0.1:1010:1010"
       - "127.0.0.1:1010:1010/udp"
