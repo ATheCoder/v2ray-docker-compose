@@ -58,7 +58,7 @@
             "users": [
               {
                 "id": "<UPSTREAM-UUID>",
-                "alterId": 10,
+                "alterId": 0,
                 "security": "aes-128-gcm"
               }
             ]
