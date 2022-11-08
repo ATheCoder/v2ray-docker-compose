@@ -39,7 +39,7 @@
         "clients": [
           {
             "id": "<BRIDGE-UUID>",
-            "alterId": 0,
+            "alterId": 10,
             "security": "aes-128-gcm"
           }
         ]
@@ -58,8 +58,8 @@
             "users": [
               {
                 "id": "<UPSTREAM-UUID>",
-                "alterId": 0,
-                "security": "none"
+                "alterId": 10,
+                "security": "aes-128-gcm"
               }
             ]
           }

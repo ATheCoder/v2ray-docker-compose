@@ -13,8 +13,8 @@
         "clients": [
           {
             "id": "<UPSTREAM-UUID>",
-            "alterId": 0,
-            "security": "none"
+            "alterId": 10,
+            "security": "auto"
           }
         ]
       },
